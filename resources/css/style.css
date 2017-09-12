@@ -1,11 +1,14 @@
-html {
-  background-color: white;
+body{
+  font-family: Georgia;
+  color: black;
+  font-size: 17px;
 }
 
-body{
+a {
   color: black;
 }
 
+/* Header Rules */
 header {
   display: flex;
   font-family: Verdana;
@@ -30,10 +33,6 @@ nav {
   margin-right: 20px;
 }
 
-nav a {
-  color: black;
-}
-
 nav ul {
   padding: 10px 0;
   width: 100%;
@@ -52,15 +51,13 @@ nav ul span {
   padding: 10px 20px;
 }
 
+/* Main Content */
 .container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: stretch;
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
   margin: 0 auto;
+  align-items: stretch;
   width: 90%;
   padding-top: 8px;
 }
@@ -93,6 +90,7 @@ nav ul span {
   margin: 0 auto;
 }
 
+/* Content Info */
 .main {
   background: url("../images/img-story-main.png") no-repeat;
   display: flex;
@@ -102,17 +100,18 @@ nav ul span {
 }
 
 h1 {
-  font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
   color: white;
   text-align: left;
-  margin: 0 20px;
+  padding: 0 20px;
 }
+
 h2 {
   margin: 0;
 }
 
+/* Images */
 .img{
   display: flex;
 }
@@ -147,6 +146,7 @@ h3 {
   color: black;
  }
 
+/* Articles */
 .story {
    display: flex;
    flex-direction: column;
@@ -222,7 +222,8 @@ h3 {
    z-index: 5;
  }
 
- footer {
+/* Footer Section */
+footer {
   background-color: MediumAquamarine;
   margin: auto;
   font-family: Verdana;
@@ -259,15 +260,12 @@ h3 {
    list-style: none;
  }
 
- .footer_firstline a {
-   color: black;
- }
-
-#copyright {
+/*#copyright {
   text-align: center;
-}
+}*/
 
 #copyright p {
+  text-align: center;
   font-family: Verdana;
   font-size: 12px;
   color: black;
